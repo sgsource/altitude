@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div style="transform: translate(-50%, -50%); position: absolute; top: 50%; left: 50%;">
+        <div class="cup_container">
+          <div class="cup" onclick="nav('index')">
+            <div class="liquid">
+              <svg viewBox="0 0 500 500">
+                <path d="
+                    M   0 100
+                    C  10 110,
+                    70 110, 100 100
+                    S 170  90, 200 105
+                    S 270 110, 300  95
+                    S 370  90, 400 100
+                    L 400 500
+                    L   0 500
+                    Z
+                    "
+                    stroke="transparent"
+                    fill="#e9cba7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <p id="about_us" onclick="change_lang()"></p>
+        </div>
+      </div>
+  </body>
+  <script type="text/javascript" src="script.js">
+  </script>
+</html>
